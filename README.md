@@ -10,7 +10,7 @@ Este proyecto es una simulación interactiva de las leyes de Newton utilizando J
 
 ## Cómo usar
 
-- Ajusta la **fuerza** y la **masa** utilizando los controles deslizantes.
+- Ajusta la fuerza y la masa utilizando los controles deslizantes.
 - El bloque se moverá según las leyes de Newton.
 
 ## Tecnologías utilizadas
