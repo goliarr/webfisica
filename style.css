@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #sliders {
+    margin-top: 10px;
+  }
+
+  #leyes {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simulación Newton</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Leyes de Newton</h1>
+    <div id="leyes">
+      <p><strong>1ª Ley (Inercia):</strong> Un objeto en reposo o en movimiento rectilíneo uniforme permanece así si no hay una fuerza neta.</p>
+      <p><strong>2ª Ley (F = m · a):</strong> Una fuerza neta produce aceleración proporcional a la masa.</p>
+      <p><strong>3ª Ley (Acción-Reacción):</strong> Por cada acción hay una reacción igual y opuesta.</p>
+    </div>
+    
+    <!-- Controles de entrada -->
+    <label for="fuerzaSlider">Fuerza:</label>
+    <input type="range" id="fuerzaSlider" min="-10" max="10" step="0.1" value="0">
+    <span id="fuerzaValue">0</span>
+    <br><br>
+
+    <label for="masaSlider">Masa:</label>
+    <input type="range" id="masaSlider" min="1" max="10" step="0.1" value="1">
+    <span id="masaValue">1</span>
+    <br><br>
+
+    <script src="libs/p5.min.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
